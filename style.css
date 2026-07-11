@@ -1,0 +1,79 @@
+/* Universal Style */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Common Style */
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.common-btn {
+    background-color:#1D4ED8;
+    padding: 12px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Navbar style  */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+nav ul li a:hover{
+  background-color: rgb(227, 221, 221);
+  padding: 8px;
+  /* border: 1px solid red; */
+  border-radius: 8px;
+}
+
+
+/* Banner Section Style */
+.banner-container{
+  /* background-image: url(./assets/banner.jpg); */
+
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+
+  text-align: center;
+}
