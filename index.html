@@ -15,6 +15,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Header Section Start -->
@@ -44,19 +53,17 @@
       <!-- Banner Start -->
       <section class="banner-container">
         <div class="banner-content">
-          <h1>Code. <span>Connect</span>. Create</h1>
-          <p>
-            Join 4,000+ engineers, founders, and builders at the premier
-            developer conference of 2026. Three days of cutting-edge talks,
-            hands-on workshops, and meaningful connections.
-          </p>
-        </div>
-
-        <div>
+          <div class="banner-description">
+            <h1>Code. <em>Connect</em>. Create</h1>
+            <p>
+              Join 4,000+ engineers, founders, and builders at the premier
+              developer conference of 2026. Three days of cutting-edge talks,
+              hands-on workshops, and meaningful connections.
+            </p>
+          </div>
           <button class="common-btn">Register Now</button>
         </div>
       </section>
-
       <!-- Banner End -->
     </header>
     <!-- Header Section End -->
@@ -113,68 +120,88 @@
         </div>
       </section>
       <!-- Meet the Speakers Section End -->
+
+      <!-- Secure Your Spot Section Start -->
+      <section class="container price-section">
+        <h2>Secure Your Spot</h2>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+        <div class="price-container">
+          <!-- Card-1 -->
+          <div class="price-card">
+            <span>Standard</span>
+            <h3>$399</h3>
+            <small>per person</small>
+            <hr />
+            <ul>
+              <li>Access to all 3 conference days</li>
+              <li>48 curated technical talks</li>
+              <li>2 workshop sessions</li>
+              <li>Networking lunch & coffee breaks</li>
+              <li>Conference swag bag</li>
+              <li>Digital recordings (30 days)</li>
+            </ul>
+            <button class="common-btn">Get Standard</button>
+          </div>
+          <!-- Card-2 -->
+          <div class="price-card pro-card">
+            <span class="pro-title">Pro</span>
+            <h3>$749</h3>
+            <small>per person</small>
+            <hr />
+            <ul class="pro-list-item">
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>Speaker meet & greet</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime recording access</li>
+              <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+            <button class="common-btn pro-btn">Get Pro</button>
+          </div>
+          <!-- Card-3 -->
+          <div class="price-card">
+            <span>Team</span>
+            <h3>$5,999</h3>
+            <small>up to 10 people</small>
+            <hr />
+            <ul>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Company logo on event page</li>
+              <li>Recruitment booth (1 day)</li>
+              <li>Priority customer support</li>
+            </ul>
+            <button class="common-btn team-btn">Contact Us</button>
+          </div>
+        </div>
+      </section>
+      <!-- Secure Your Spot Section End -->
     </main>
     <!-- Main Section End -->
 
-    <!-- Secure Your Spot Section Start -->
-    <section class="container price-section">
-      <h2>Secure Your Spot</h2>
-      <p>Early-bird pricing ends August 15, 2026.</p>
-      <div class="price-container">
-        <!-- Card-1 -->
-        <div class="price-card">
-          <span>Standard</span>
-          <h3>$399</h3>
-          <small>per person</small>
-          <hr />
-          <ul>
-            <li>Access to all 3 conference days</li>
-            <li>48 curated technical talks</li>
-            <li>2 workshop sessions</li>
-            <li>Networking lunch & coffee breaks</li>
-            <li>Conference swag bag</li>
-            <li>Digital recordings (30 days)</li>
-          </ul>
-          <button class="common-btn">Get Standard</button>
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="./assets/footer-logo.png" alt="" />
         </div>
-        <!-- Card-2 -->
-        <div class="price-card pro-card">
-          <span class="pro-title">Pro</span>
-          <h3>$749</h3>
-          <small>per person</small>
-          <hr />
-          <ul class="pro-list-item">
-            <li>Everything in Standard</li>
-            <li>Unlimited workshop access</li>
-            <li>Speaker meet & greet</li>
-            <li>VIP networking dinner</li>
-            <li>Lifetime recording access</li>
-            <li>1-on-1 mentorship (30 min)</li>
-          </ul>
-          <button class="common-btn pro-btn">Get Pro</button>
-        </div>
-        <!-- Card-3 -->
-        <div class="price-card">
-          <span>Team</span>
-          <h3>$5,999</h3>
-          <small>up to 10 people</small>
-          <hr />
-          <ul>
-            <li>Everything in Pro (10 seats)</li>
-            <li>Dedicated team lounge access</li>
-            <li>Private workshop booking</li>
-            <li>Company logo on event page</li>
-            <li>Recruitment booth (1 day)</li>
-            <li>Priority customer support</li>
-          </ul>
-          <button class="common-btn team-btn">Contact Us</button>
+
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
         </div>
       </div>
-    </section>
-    <!-- Secure Your Spot Section End -->
 
-    <!-- Footer Section Start -->
-    <footer></footer>
+      <hr />
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 DevConf. All rights reserved.</p>
+      </div>
+    </footer>
     <!-- Footer Section End -->
   </body>
 </html>
