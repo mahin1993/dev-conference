@@ -89,8 +89,8 @@ nav ul li a:hover{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
+  margin-bottom: 80px;
 }
-
 .speakers-container img{
   margin-bottom: 10px;
 }
@@ -108,3 +108,87 @@ nav ul li a:hover{
 .speakers-card-content .designation{
   color: #575757;
 }
+
+
+/* Secure Your Spot */
+.price-section h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.price-section p{
+  color: #575757;
+  margin: 10px 0 50px;
+  text-align: center;
+}
+.price-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.price-card{
+  background: #f4f7fa;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 100%;
+}
+.pro-card{
+  background-color: #0D1B2A;
+  color: #ffffff;
+}
+.pro-card .pro-title{
+  color: #4E7196;
+}
+.price-card span{
+    color: #575757;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+.price-card h3{
+  font-size: 3rem;
+  margin-top: 10px;
+}
+.price-card small{
+  color: #575757;
+}
+.price-card hr{
+    margin:20px 0;
+    border-top:1px solid #dddddd;
+}
+.price-card ul li{
+    margin:12px 0;
+    font-size:15px;
+    list-style: disc;
+    color: #575757;
+}
+.price-card .pro-list-item li{
+  color: #dddddd;
+}
+li::marker {
+  color: #2563eb;
+}
+.price-card button{
+    width: 100%;
+    border: 1px solid #2f64ff;
+    background: white;
+    color: #2f64ff;
+    margin-top: 12px;
+}
+.price-card .pro-btn{
+    background-color: #2f64ff;
+    color: #dddddd;
+}
+.price-card .team-btn{
+  width: 100%;
+    border: 1px solid black;
+    /* background-color: #2f64ff; */
+    /* background: white; */
+    color: black;
+    margin-top: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+
+
